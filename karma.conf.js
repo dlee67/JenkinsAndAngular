@@ -19,7 +19,7 @@ module.exports = function (config) {
       fixWebpackSourcePaths: true
     },
     reporters: ['dots', 'junit'],
-    junitReporter = {
+    junitReporter: {
       outputDir: 'karma-results',
       outputFile: 'karma-results.xml'
     },
