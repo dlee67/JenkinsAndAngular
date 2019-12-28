@@ -20,7 +20,7 @@ module.exports = function (config) {
     },
     reporters: ['dots', 'junit'],
     junitReporter: {
-      outputDir: 'karma-results',
+      outputDir: './coverage',
       outputFile: 'karma-results.xml'
     },
     port: 9876,

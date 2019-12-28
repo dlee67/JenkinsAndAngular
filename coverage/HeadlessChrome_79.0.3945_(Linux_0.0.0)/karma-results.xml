@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 79.0.3945 (Linux 0.0.0)" package="" timestamp="2019-12-28T04:08:30" id="0" hostname="bob-HP-ProBook-640-G1" tests="7" errors="0" failures="0" time="0.272">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) snap Chromium/79.0.3945.79 HeadlessChrome/79.0.3945.79 Safari/537.36"/>
+  </properties>
+  <testcase name="FooterComponent should create" time="0.054" classname="HeadlessChrome_79_0_3945_(Linux_0_0_0).FooterComponent"/>
+  <testcase name="HomeComponent should create" time="0.07" classname="HeadlessChrome_79_0_3945_(Linux_0_0_0).HomeComponent"/>
+  <testcase name="HomeComponent should goto project" time="0.05" classname="HeadlessChrome_79_0_3945_(Linux_0_0_0).HomeComponent"/>
+  <testcase name="AppComponent should create the app" time="0.042" classname="HeadlessChrome_79_0_3945_(Linux_0_0_0).AppComponent"/>
+  <testcase name="AppComponent should tick" time="0.029" classname="HeadlessChrome_79_0_3945_(Linux_0_0_0).AppComponent"/>
+  <testcase name="ProjectsComponent should create" time="0.014" classname="HeadlessChrome_79_0_3945_(Linux_0_0_0).ProjectsComponent"/>
+  <testcase name="HeaderComponent should create" time="0.013" classname="HeadlessChrome_79_0_3945_(Linux_0_0_0).HeaderComponent"/>
+  <system-out>
+    <![CDATA[HeadlessChrome 79.0.3945 (Linux 0.0.0) WARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+,HeadlessChrome 79.0.3945 (Linux 0.0.0) WARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+,HeadlessChrome 79.0.3945 (Linux 0.0.0) WARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+,HeadlessChrome 79.0.3945 (Linux 0.0.0) WARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+,HeadlessChrome 79.0.3945 (Linux 0.0.0) LOG: 'tick'
+,HeadlessChrome 79.0.3945 (Linux 0.0.0) LOG: 'tock'
+,HeadlessChrome 79.0.3945 (Linux 0.0.0) LOG: 'tick'
+,HeadlessChrome 79.0.3945 (Linux 0.0.0) LOG: 'tock'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
