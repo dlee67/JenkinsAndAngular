@@ -35,7 +35,6 @@ module.exports = function (config) {
     autoWatch: false,
     singleRun: false,
     restartOnFileChange: true,
-    reporters = ['dots', 'junit'],
     junitReporter = {
       outputFile: 'test-results.xml'
     }
