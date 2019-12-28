@@ -34,9 +34,6 @@ module.exports = function (config) {
     browsers: ['ChromeHeadless'],
     autoWatch: false,
     singleRun: false,
-    restartOnFileChange: true,
-    junitReporter = {
-      outputFile: 'test-results.xml'
-    }
+    restartOnFileChange: true
   });
 };
